@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug TypeScript",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["ts-node", "src/index.ts"],
+      "cwd": "${workspaceFolder}",
+      "sourceMaps": true
+    }
+  ]
+}
