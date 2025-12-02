@@ -12,7 +12,7 @@ import { Day_11 } from "./day_11/day_11";
 import { Day_12 } from "./day_12/day_12";
 import { Day } from "./lib/day";
 
-const dayNumber = 1;
+const dayNumber = 2;
 const days: Day[] = [
     new Day_01(),
     new Day_02(),
