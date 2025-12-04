@@ -30,7 +30,18 @@ const days: Day[] = [
 
 const day = days[dayNumber - 1];
 
-const [result1, result2] = day.run();
+const runResult = day.run();
 
-console.log(`Part 1: ${result1.toString()}`);
-console.log(`Part 2: ${result2.toString()}`);
+console.log(
+    `Part 1: ${runResult.part1.toString()} (${runResult.time1.toFixed(4)} ms)`
+);
+
+console.log(
+    `Part 2: ${runResult.part2.toString()} (${runResult.time2.toFixed(4)} ms)`
+);
+
+console.log(
+    "Total time:",
+    (runResult.time1 + runResult.time2).toFixed(4),
+    "ms"
+);
